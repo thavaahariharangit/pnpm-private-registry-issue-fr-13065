@@ -9,22 +9,22 @@ importers:
   .:
     dependencies:
       '@mycompany/lodash':
-        specifier: ^4.17.1
-        version: 4.17.1
+        specifier: ^4.17.2
+        version: 4.17.2
       lodash:
         specifier: ^4.17.1
         version: 4.17.1
 
 packages:
 
-  '@mycompany/lodash@4.17.1':
-    resolution: {integrity: sha512-/N+v3Rluuh/yyagz4qWRDpw52ss3KxHakUIFhiS4igU946Uu9iEPq8aw5h/UfIZTCxMezzOlDwrJgJePDEJjnQ==, tarball: https://jfrogghdemo.jfrog.io/artifactory/api/npm/dpndbt-pvt-repo-npm-key/@mycompany/lodash/-/@mycompany/lodash-4.17.1.tgz}
+  '@mycompany/lodash@4.17.2':
+    resolution: {integrity: sha512-/N+v3Rluuh/yyagz4qWRDpw52ss3KxHakUIFhiS4igU946Uu9iEPq8aw5h/UfIZTCxMezzOlDwrJgJePDEJjnQ==, tarball: https://jfrogghdemo.jfrog.io/artifactory/api/npm/dpndbt-pvt-repo-npm-key/@mycompany/lodash/-/@mycompany/lodash-4.17.2.tgz}
 
   lodash@4.17.1:
     resolution: {integrity: sha512-TU8moLfqGOx1RJogO9uU2d90q0L5J/1g/i4fkdB5ZmQ5qsjwVnCvg5XWuiwqqPNnyBQlQp8ukd9ADTY27dGsiQ==, tarball: https://jfrogghdemo.jfrog.io/artifactory/api/npm/dpndbt-pvt-repo-npm-key/lodash-4.17.1.tgz}
 
 snapshots:
 
-  '@mycompany/lodash@4.17.1': {}
+  '@mycompany/lodash@4.17.2': {}
 
   lodash@4.17.1: {}
