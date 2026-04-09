@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    versioning-strategy: "increase"
+    schedule:
+      interval: "daily"
+    registries:
+      - npm-artifactory
+
+registries:
+  npm-artifactory:
+    type: "npm-registry"
+    url: "jfrogghdemo.jfrog.io/artifactory/api/npm/db-dependabot-local/"
+    token: "${{secrets.ARTIFACTORY_API_TOKEN}}"
+    replaces-base: true
