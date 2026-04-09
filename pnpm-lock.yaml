@@ -25,6 +25,6 @@ packages:
 
 snapshots:
 
-  '@mycompany/lodash@4.17.2': {}
+  '@mycompany/lodash@4.17.1': {}
 
   lodash@4.17.1: {}
