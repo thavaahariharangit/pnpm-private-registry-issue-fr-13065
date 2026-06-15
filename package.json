@@ -1,7 +1,7 @@
 {
     "packageManager": "pnpm@10.14.0",
     "dependencies": {
-        "@mycompany/lodash": "^4.17.1",
+        "@mycompany/lodash": "^4.17.2",
         "lodash": "^4.17.1"
     }
 }
